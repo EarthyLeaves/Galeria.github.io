@@ -1,0 +1,250 @@
+.titulo{
+  font-family: typo writer; 
+  line-height: 1.5em;
+ color: #41901A;
+ text-align: center;
+ padding: 10px 80px 10px 20px; 
+ display: flex;
+ flex-direction: row;
+ /* margin: 20px 100px 20px 570px; */
+ margin: 15px 0px 0px 0px;
+ box-sizing: border-box;
+ text-shadow: 3px 3px 5px #157a48;
+ font-size: 50px;
+ text-decoration-color: aquamarine 10px;
+ width: 100%;
+
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ }
+
+ @media (min-width: 900px){
+   .titulo{
+      flex-direction: column;
+   }
+
+   nav{
+      display: flex;
+      flex-direction: column;
+   }
+}
+
+
+.container-titulo{
+ background-color: #326a16;
+ margin: -20px 0px -20px 0px;
+ display: flex;
+ flex-direction: row;
+}
+
+ .imagen{
+     /* padding: 20px; */
+     /* box-shadow: 10px 10px 15px 5px #000 ; */
+     border: 7px solid green;
+     display: flex;
+     margin: 0px 10px;
+     max-width: 100%;
+ }
+
+ .fotos{
+    padding: 15px;
+     display: flex;
+     margin: 0px 10px;
+     justify-content: center;
+ }
+
+ .fotomed{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 7px solid green;
+   margin: -30px 0px -10px 180px;
+   /* padding: 20px; */
+ }
+
+ table{
+    font-size: 20px;
+ }
+
+ td{
+    margin: auto;
+    padding: 10px;
+ }
+
+
+
+.clasep {
+ margin: 0px 0px;
+ width: 98%;
+ font-size: 20px;
+ color: #41901A;
+ font-family: simplicity;
+ padding: 20px;
+ text-align: left
+
+}
+
+
+body{
+font-family: playfair display;
+background-image: url("https://img.freepik.com/vector-premium/fondo-textura-papel-arrugado-realista_389675-162.jpg?w=2000");
+}
+
+
+
+
+
+/* para el menu */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+nav{
+max-width: 1000px;
+margin: auto;
+background-color: #78bd55;
+font-size: 25px;
+margin-top: 20px;
+margin-bottom: 30px;
+/* font-family: Helvetica; */
+font-family: 'Times New Roman' ;
+
+}
+.menu-horizontal{
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+.menu-horizontal > li > a{
+display: block;
+padding: 15px 20px;
+color: white;
+text-decoration: none;
+}
+.menu-horizontal > li:hover{
+background-color: green;
+}
+.menu-vertical{
+position: absolute;
+display: none;
+list-style: none;
+width: 200px;
+background-color: #12deaf;
+z-index: 999999;
+}
+.menu-horizontal li:hover .menu-vertical{
+display: block;
+}
+.menu-vertical li:hover{
+background-color: #70e3c8;
+}
+
+.menu-vertical li a{
+display: block;
+color: white;
+text-decoration: none;
+padding: 15px 15px 15px 20px;
+}
+/* aqui acaba el codigo del menu */
+
+
+  p {
+    margin: 0; /* Elimina el margen entre párrafos */
+    font-size: 200;
+}
+h4 {
+ margin: 0;
+}
+
+
+/* Nuevo style que se le agrego para no perderse */
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #f2f2f2;
+ font-family: helvetica;
+}
+
+.container {
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+.section {
+   margin-top: 1;
+ margin-bottom: 40px;
+ padding: 20px;
+ background-color: #fff;
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sectionfo {
+   margin-top: 10px;
+   margin-bottom: 20px;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+.fotosini{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+h2 {
+ font-size: 24px;
+ color: #333;
+ margin-bottom: 10px;
+}
+
+.clasep {
+ font-size: 16px;
+ line-height: 1.5;
+}
+
+.fotos {
+ display: flex;
+ justify-content: space-between;
+ gap: 10px;
+ margin-top: 20px;
+}
+
+.imagen {
+ max-width: 30%;
+ height: auto;
+}
+
+/* Estilos específicos para imágenes */
+.imagen {
+ border-radius: 5px;
+ box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.consejos-titu{
+ font-size: 28px;
+ font-family: 'Times New Roman';
+}
+
+.consejos-cont{
+font-size: 22px;
+
+margin: -5px 8px;
+ width: 96%;
+ color: #41901A;
+ font-family: 'Times New Roman';
+ padding: 20px;
+ text-align: justify;
+}
+
+
+ 
